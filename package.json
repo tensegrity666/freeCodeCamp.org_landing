@@ -1,0 +1,16 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Responsive Web Design Projects - Build a Product Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "freecodecamp"
+  ],
+  "author": "Roman Yakovlev",
+  "license": "ISC"
+}
