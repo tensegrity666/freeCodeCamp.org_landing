@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "Responsive Web Design Projects - Build a Product Landing Page",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "html",
     "css",
     "freecodecamp"
   ],
+  "devDependencies": {
+    "stylelint": "^12.0.1",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^19.0.0"
+  },
   "author": "Roman Yakovlev",
   "license": "ISC"
 }
