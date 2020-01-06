@@ -1,0 +1,94 @@
+:root {
+  --background-color: #CFC0BD;
+  --secondary-color: #BE6E46;
+  --main-text: #080808;
+  --button-color: #758E4F;
+  --header-footer-color: rgba(114, 134, 160, 0.95);
+
+  font-size: 10px;
+}
+
+.page {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 120px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2em;
+  color: var(--main-text);
+  background-color: var(--background-color);
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 50px;
+  padding: 25px 100px;
+  background-color: var(--header-footer-color);
+  backdrop-filter: blur(8px);
+}
+
+.main-title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3.5em;
+  font-weight: 200;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.logo,
+.navigation {
+  min-width: 600px;
+  list-style: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__footer {
+  min-width: 470px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: var(--main-text);
+  text-decoration: none;
+}
+
+.main-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  height: 150px;
+  padding: 25px 100px;
+  background-color: var(--header-footer-color);
+  backdrop-filter: blur(8px);
+}
+
+.copyright {
+  padding-right: 30px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.2em;
+}
