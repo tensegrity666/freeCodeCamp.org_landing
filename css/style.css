@@ -65,6 +65,14 @@
   font-weight: 500;
   color: var(--main-text);
   text-decoration: none;
+  transition: all 0.1s;
+}
+
+.nav-link:hover {
+  font-weight: 600;
+  color: var(--button-color);
+  filter: saturate(1.5) brightness(1.2);
+  transition: all 0.1s;
 }
 
 .main-container {
@@ -111,11 +119,41 @@
   font-size: 1.6em;
   font-weight: 600;
   color: var(--form-color);
+  cursor: pointer;
   background-color: var(--button-color);
   border: 3px solid var(--header-footer-color);
   border-radius: 14px;
+  transition: all 0.1s;
 }
 
+.button:hover {
+  filter: saturate(2.5);
+  outline: none;
+  transition: all 0.1s;
+}
+
+.button:active {
+  filter: saturate(3.5) brightness(1.1);
+  outline: none;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.features__item-paragraph {
+  text-align: center;
+}
 
 .footer {
   position: absolute;
