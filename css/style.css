@@ -1,5 +1,6 @@
 :root {
   --background-color: #CFC0BD;
+  --form-color: rgba(193, 199, 206, 0.8);
   --secondary-color: #BE6E46;
   --main-text: #080808;
   --button-color: #758E4F;
@@ -50,6 +51,7 @@
 .navigation {
   display: flex;
   justify-content: space-around;
+  margin-top: 10px;
 }
 
 .navigation__footer {
@@ -66,10 +68,53 @@
 }
 
 .main-container {
+  display: flex;
+  flex-direction: column;
   max-width: 1600px;
   margin: 0 auto;
 }
 
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+#email {
+  box-sizing: border-box;
+  width: 600px;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 1.4em;
+  background-color: var(--form-color);
+  border: 3px solid var(--secondary-color);
+  border-radius: 14px;
+}
+
+#email::placeholder {
+  text-align: center;
+}
+
+.button {
+  width: 300px;
+  height: 50px;
+  font-size: 1.6em;
+  font-weight: 600;
+  color: var(--form-color);
+  background-color: var(--button-color);
+  border: 3px solid var(--header-footer-color);
+  border-radius: 14px;
+}
 
 
 .footer {
