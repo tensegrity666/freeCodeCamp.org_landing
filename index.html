@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
   <link
     href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dosis&display=swap"
     rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7d5b6b7ec.js"
+      crossorigin="anonymous"></script>
   <title>Original Trombones</title>
 </head>
 <body class="page">
@@ -37,28 +40,33 @@
   <main class="main-container">
     <h1 class="main-title">Handcrafted, home-made masterpieces</h1>
     <section class="subscribe">
-      <h2>Subscribe us</h2>
+      <h2 class="visually-hidden">Make an order</h2>
       <form id="form" action="https://www.freecodecamp.org/email-submit"
         method="POST">
-        <input id="email" type="email" placeholder="Write your e-mail for subscribing">
+        <input id="email" type="email"
+          placeholder="Write the e-mail to place an order">
         <button class="button" type="submit">Get started</button>
       </form>
     </section>
+
     <section id="features">
-      <h2>Features</h2>
+      <h2 class="visually-hidden">Features</h2>
       <ul class="features">
         <li class="features__item">
+          <i class="fas fa-award"></i>
           <strong>Premium Materials</strong>
           <p class="features__item-paragraph">Our trombones use the shiniest brass which is sourced locally. This
             will increase the longevity of your purchase.</p>
         </li>
         <li class="features__item">
+          <i class="fas fa-bolt"></i>
           <strong>Fast Shipping</strong>
           <p class="features__item-paragraph">We make sure you recieve your trombone as soon as we have finished
             making it. We also provide free returns if you are not satisfied.
           </p>
         </li>
         <li class="features__item">
+          <i class="fas fa-check-circle"></i>
           <strong>Quality Assurance</strong>
           <p class="features__item-paragraph">For every purchase you make, we will ensure
             there are no damages or
@@ -66,50 +74,58 @@
         </li>
       </ul>
     </section>
-    <section id="howWorks">
+
+    <section id="howWorks" class="howWorks">
       <div class="text-content">
         <h2>How it works</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius alias,
+        <p class="text-content__main-text">Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Eius alias,
           voluptatum ex, saepe autem esse sit quidem natus distinctio asperiores
           doloribus, delectus facilis vel. Deleniti expedita blanditiis
           distinctio ea ab?
-          At maxime aliquid quasi unde, saepe exercitationem optio suscipit eius
-          quia culpa harum, pariatur iusto nulla quaerat facere alias impedit
-          quibusdam vero odio porro quas laborum? Voluptates nemo illo saepe?
-          Consequatur aut ea sapiente nobis incidunt maxime deleniti distinctio,
-          illum neque ipsam quo magni quod blanditiis quidem consectetur culpa!
+          At maxime aliquid quasi unde, nulla quaerat facere alias impedit
+          quibusdam vero  sapiente quod blanditiis quidem consectetur culpa!
           Minima tenetur consequuntur voluptates accusantium porro non dolore
-          saepe deserunt illo?</p>
+          saepe deserunt illo?
+          Eius alias,
+          voluptatum ex, saepe autem esse sit quidem natus distinctio asperiores
+          doloribus, delectus facilis vel. Deleniti expedita blanditiis
+          distinctio ea ab?</p>
       </div>
-      <iframe id="video" width="560" height="315"
-        src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0"
-        allow="autoplay; encrypted-media; picture-in-picture"></iframe>
+      <div class="video-content">
+        <iframe id="video" width="560" height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0"
+          allow="autoplay; encrypted-media; picture-in-picture"></iframe>
+      </div>
     </section>
     <section id="pricing">
-      <h2>Pricing</h2>
-      <ul>
-        <li>
+      <h2 class="visually-hidden">Pricing</h2>
+      <ul class="pricing">
+        <li class="pricing__item">
           <h3>TENOR TROMBONE</h3>
           <b>600</b>
-          <p>Lorem ipsum.
+          <p class="pricing__item_paragraph">
+            Lorem ipsum.
             Lorem ipsum.
             Lorem ipsum dolor.
             Lorem ipsum.</p>
           <a href="#">Select</a>
         </li>
-        <li>
+        <li class="pricing__item">
           <h3>BASS TROMBONE</h3>
           <b>900</b>
-          <p>Lorem ipsum.
+          <p class="pricing__item_paragraph">
+            Lorem ipsum.
             Lorem ipsum.
             Lorem ipsum dolor.
             Lorem ipsum.</p>
           <a href="#">Select</a>
         </li>
-        <li>
+        <li class="pricing__item">
           <h3>VALVE TROMBONE</h3>
           <b>1200</b>
-          <p>Plays similar to a Trumpet
+          <p class="pricing__item_paragraph">
+            Plays similar to a Trumpet
             Great for Jazz Bands
             Lorem ipsum dolor.
             Lorem ipsum.</p>
