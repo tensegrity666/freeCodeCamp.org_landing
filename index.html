@@ -38,14 +38,14 @@
   </header>
 
   <main class="main-container">
-    <h1 class="main-title">Handcrafted, home-made masterpieces</h1>
+    <h1 id="title" class="main-title">Handcrafted, home-made masterpieces</h1>
     <section class="subscribe">
       <h2 class="visually-hidden">Make an order</h2>
-      <form id="form" action="https://www.freecodecamp.org/email-submit"
+      <form id="form" action="https://www.freecodecamp.org/email-submit" name="email"
         method="POST">
         <input id="email" type="email"
           placeholder="Write the e-mail to place an order">
-        <button class="button" type="submit">Get started</button>
+        <button id="submit" class="button" type="submit">Get started</button>
       </form>
     </section>
 
@@ -102,34 +102,34 @@
       <h2 class="visually-hidden">Pricing</h2>
       <ul class="pricing">
         <li class="pricing__item">
-          <h3>TENOR TROMBONE</h3>
-          <b>600</b>
+          <h3 class="pricing__item_header">TENOR TROMBONE</h3>
+          <b class="pricing__item_price">&#36;600</b>
           <p class="pricing__item_paragraph">
             Lorem ipsum.
             Lorem ipsum.
             Lorem ipsum dolor.
             Lorem ipsum.</p>
-          <a href="#">Select</a>
+          <a class="button pricing__item_button" href="#">Select</a>
         </li>
         <li class="pricing__item">
-          <h3>BASS TROMBONE</h3>
-          <b>900</b>
+          <h3 class="pricing__item_header">BASS TROMBONE</h3>
+          <b class="pricing__item_price">&#36;900</b>
           <p class="pricing__item_paragraph">
             Lorem ipsum.
             Lorem ipsum.
             Lorem ipsum dolor.
             Lorem ipsum.</p>
-          <a href="#">Select</a>
+          <a class="button pricing__item_button" href="#">Select</a>
         </li>
         <li class="pricing__item">
-          <h3>VALVE TROMBONE</h3>
-          <b>1200</b>
+          <h3 class="pricing__item_header">VALVE TROMBONE</h3>
+          <b class="pricing__item_price">&#36;1200</b>
           <p class="pricing__item_paragraph">
             Plays similar to a Trumpet
             Great for Jazz Bands
             Lorem ipsum dolor.
             Lorem ipsum.</p>
-          <a href="#">Select</a>
+          <a class="button pricing__item_button" href="#">Select</a class="button ">
         </li>
       </ul>
     </section>
